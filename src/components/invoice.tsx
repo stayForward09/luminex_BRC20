@@ -24,14 +24,6 @@ export default function Invoice() {
         name="paymentDisclaimer"
         className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-oxbt-500 focus:border-oxbt-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-oxbt-500 dark:focus:border-oxbt-500 dark:shadow-sm-light"
       />
-      <button
-        type="button"
-        className="flex text-center justify-center items-center rounded-md w-full bg-oxbt-600 px-3.5 py-2.5 font-semibold text-black shadow-sm hover:bg-oxbt-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-oxbt-600 disabled:opacity-50"
-        disabled
-      >
-        {" "}
-        Continue{" "}
-      </button>
     </div>
   );
 }

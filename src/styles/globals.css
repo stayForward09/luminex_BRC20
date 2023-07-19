@@ -7,3 +7,6 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(17 24 39);
 }
+input.text-white, textarea {
+  padding-left: 4px;
+}
